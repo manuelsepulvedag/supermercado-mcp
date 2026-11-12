@@ -1,0 +1,65 @@
+2026-11-11T21:44:03.981-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] com.example.labmcp.LabmcpApplication     : Starting LabmcpApplication using Java 21.0.12.1 with PID 8124 (C:\Users\Home\Documents\Manuel\ARQUI SOFT\supermercado-mcp\target\classes started by Home in C:\Users\Home\Documents\Manuel\ARQUI SOFT\supermercado-mcp)
+2026-11-11T21:44:03.983-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] com.example.labmcp.LabmcpApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-11-11T21:44:04.044-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-11T21:44:04.044-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-11T21:44:04.922-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-11T21:44:05.108-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176 ms. Found 4 JPA repository interfaces.
+2026-11-11T21:44:05.540-05:00  WARN 8124 --- [supermercado-mcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-11T21:44:05.596-05:00  WARN 8124 --- [supermercado-mcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'serverAnnotatedBeanRegistry' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration$ServerMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-11T21:44:05.663-05:00  WARN 8124 --- [supermercado-mcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.ai.mcp.server.annotation-scanner-org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-11T21:44:06.029-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2026-11-11T21:44:06.044-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-11T21:44:06.045-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-11-11T21:44:06.112-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-11T21:44:06.113-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2068 ms
+2026-11-11T21:44:06.219-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-11T21:44:06.408-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41ae5d1f
+2026-11-11T21:44:06.410-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-11T21:44:06.515-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-11T21:44:06.610-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2026-11-11T21:44:06.660-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-11T21:44:07.000-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-11T21:44:07.099-05:00  WARN 8124 --- [supermercado-mcp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-11T21:44:07.154-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-11T21:44:10.440-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-11T21:44:14.786-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-11T21:44:15.737-05:00  WARN 8124 --- [supermercado-mcp] [restartedMain] o.s.m.provider.tool.SyncMcpToolProvider  : No tool methods found in the provided tool objects: []
+2026-11-11T21:44:15.746-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-11-11T21:44:15.748-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 6
+2026-11-11T21:44:15.749-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-11-11T21:44:15.750-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-11-11T21:44:15.751-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-11-11T21:44:15.751-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-11-11T21:44:15.919-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-11-11T21:44:15.957-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2026-11-11T21:44:15.963-05:00  INFO 8124 --- [supermercado-mcp] [restartedMain] com.example.labmcp.LabmcpApplication     : Started LabmcpApplication in 12.623 seconds (process running for 13.091)
+2026-11-11T21:56:47.755-05:00  INFO 8124 --- [supermercado-mcp] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-11T21:56:47.756-05:00  INFO 8124 --- [supermercado-mcp] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-11T21:56:47.758-05:00  INFO 8124 --- [supermercado-mcp] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-11T21:56:48.111-05:00  INFO 8124 --- [supermercado-mcp] [http-nio-8089-exec-5] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=mcp-remote-fallback-test, title=null, version=0.0.0]
+2026-11-11T21:56:48.181-05:00  WARN 8124 --- [supermercado-mcp] [http-nio-8089-exec-5] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2025-06-18 version instead
+2026-11-11T21:56:48.314-05:00  INFO 8124 --- [supermercado-mcp] [http-nio-8089-exec-8] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=Elicitation[]], Info: Implementation[name=claude-ai (via mcp-remote 0.16.6), title=null, version=0.1.0]
+2026-11-11T21:56:48.334-05:00  WARN 8124 --- [supermercado-mcp] [http-nio-8089-exec-8] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2025-06-18 version instead
+2026-11-11T21:57:35.670-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-4] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPorCategoria
+2026-11-11T21:57:35.974-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-4] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPorCategoria
+2026-11-11T21:57:35.975-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-4] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-11T21:57:36.794-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-5] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPorCategoria
+2026-11-11T21:57:36.851-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-5] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPorCategoria
+2026-11-11T21:57:36.851-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-5] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-11T21:57:40.573-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-6] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarCatalogo
+2026-11-11T21:57:40.625-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-6] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarCatalogo
+2026-11-11T21:57:40.627-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-6] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-11T21:58:17.663-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-9] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: realizarPedido
+2026-11-11T21:58:17.832-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-9] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: realizarPedido
+2026-11-11T21:58:17.833-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-9] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-11T21:58:20.051-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-10] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: agregarProductoAPedido
+2026-11-11T21:58:20.184-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-10] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: agregarProductoAPedido
+2026-11-11T21:58:20.184-05:00 DEBUG 8124 --- [supermercado-mcp] [http-nio-8089-exec-10] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-11T22:21:23.032-05:00  INFO 8124 --- [supermercado-mcp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
